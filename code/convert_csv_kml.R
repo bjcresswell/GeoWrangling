@@ -1,8 +1,8 @@
 ## Basic script to create kml file from csv
 
 # Load required libraries
-library("sp")
-library("rgdal")
+library(sp)
+library(rgdal)
 
 # Load data 
 # In this case I am using the output file from the decimal_degree_conversion.R file
