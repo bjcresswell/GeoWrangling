@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="station_name" id="station_name">
+	<SimpleField name="station_name" type="string"></SimpleField>
+</Schema>
+<Folder><name>station_name</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-B1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>147.09811,-15.4831</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-B2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>147.08549,-15.49216</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-F1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>148.468333,-17.860833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-F2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>148.456667,-17.8475</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-F3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>148.41136,-17.78669</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-F4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>148.34192,-17.70414</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-F5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>148.344817,-17.603067</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-F6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>148.55112,-17.53675</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-H1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>147.80418,-16.52544</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-H2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>147.83916,-16.51</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-H3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>147.96745,-16.50534</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-H4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>147.98442,-16.42693</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-O1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.546283,-13.801433</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-O2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.56496,-13.845</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-O3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.55825,-13.885117</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-O4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.56578,-13.88958</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-O5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.57494,-13.89314</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-O6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.552967,-13.89135</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#station_name">
+		<SimpleData name="station_name">CS-O7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.561633,-13.901117</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
