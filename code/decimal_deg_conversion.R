@@ -18,3 +18,16 @@ ROV_dec<- ROV_lat_conv %>%                    # create an entirely new df
 
 # And save if required
 write_csv(ROV_dec, file = "../../ROV_ll_dec.csv")
+
+# Turtle islands data for G
+
+turtles <- read_csv("data/TURTLES_SITES_2024.csv")
+
+# Convert lats and longs
+turtles2 <- turtles %>%                    # create an entirely new df 
+  mutate(Dec_lat = parse_lat(LAT),       # parse_lat and long convert the values
+         Dec_lon = parse_lon(LONG)) 
+
+# And save if required
+write_csv(turtles2, file = "output/TURTLES_SITES_2024_DECI.csv")
+
