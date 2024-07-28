@@ -30,3 +30,14 @@ turtles2 <- turtles %>%                    # create an entirely new df
 
 # And save if required
 write_csv(turtles2, file = "output/TURTLES_SITES_2024_DECI.csv")
+
+
+
+## MNI current meters
+
+# Load data
+MNICM <- read_excel("data/MNI_CMs.xlsx") |> 
+  mutate(Dec_lat = parse_lat(Lat_DDM),       # parse_lat and long convert the values
+         Dec_lon = parse_lon(Long_DDM))  |>   # can either replace the old values or add new ones
+  select(Site, Dec_lat, Dec_lon)          # select only columns of interest.
+
